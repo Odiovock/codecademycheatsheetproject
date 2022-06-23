@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l521wRZWMf6.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+body {
+    text-align: center;
+    background-color: white;
+    font-family: 'Merriweather', sans-serif;
+}
+
+footer {
+    font-size: 12px;
+}
+
+section {
+    padding: 50px 100px;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: left;
+    text-decoration: underline;
+}
+
+table {
+    margin: 50px 10%;
+    min-width: 80%;
+    border-style: outset;
+}
+
+span {
+    background-color: yellow;
+}
+
+.presentationParagraph {
+    font-size: 20px;
+    text-align: left;
+}
+
+#HTML {
+    background-color: azure;
+}
+
+#HTML table {
+    border-color: powderblue;
+}
+
+#HTML th, #HTML td {
+    padding: 5px;
+    background-color: rgb(196, 218, 221);
+}
+
+#CSS {
+    background-color: rgb(255, 232, 235);
+}
+
+#CSS table {
+    border-color: salmon;
+}
+
+#CSS th, #CSS td {
+    padding: 5px;
+    background-color: lightpink;
+}
